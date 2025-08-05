@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nous Contacter</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script src="javascripts/accueil.js" defer></script>
+    <script src="javascripts/contact.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Événements</span>
+                <span class="logo-accent">d'Exception</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#apropos" class="nav-link">À propos</a>
+                <a href="#contact" class="nav-link active">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Contact Section -->
+      <div class="container2">
+        <div class="header">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes là pour vous aider. N'hésitez pas à nous écrire !</p>
+        </div>
+
+        <div class="content">
+            <div class="form-section">
+                <div class="success-message" id="successMessage">
+                    ✅ Votre message a été envoyé avec succès ! Nous vous répondrons bientôt.
+                </div>
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nom">Nom complet *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Téléphone</label>
+                        <input type="tel" id="telephone" name="telephone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sujet">Sujet *</label>
+                        <input type="text" id="sujet" name="sujet" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Décrivez votre demande en détail..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+
+            <div class="info-section">
+                <div class="contact-info">
+                    <h3>Nos coordonnées</h3>
+
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <strong>E-mail</strong><br>
+                            contact@entreprise.fr
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <div>
+                            <strong>Téléphone</strong><br>
+                            +33 1 23 45 67 89
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <strong>Adresse</strong><br>
+                            123 Rue de la République<br>
+                            75001 Paris, France
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="icon">🕒</span>
+                        <div>
+                            <strong>Horaires</strong><br>
+                            Lun-Ven: 9h00 - 18h00<br>
+                            Sam: 9h00 - 12h00
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-grid">
+                        <a href="#" class="social-link">
+                            <span class="icon">📘</span>
+                            Facebook
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="icon">🐦</span>
+                            Twitter
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="icon">💼</span>
+                            LinkedIn
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="icon">📷</span>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Événements d'Exception</h3>
+                    <p>Créatrice de moments inoubliables depuis 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Mariages</a></li>
+                        <li><a href="#">Séminaires</a></li>
+                        <li><a href="#">Anniversaires</a></li>
+                        <li><a href="#">Location de salles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 contact@evenements-exception.fr</p>
+                    <p>📱 06 29 67 49 90</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Événements d'Exception. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>

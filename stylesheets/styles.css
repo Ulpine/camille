@@ -3,10 +3,11 @@
 @import "components/navbar.css";
 @import "components/hero.css";
 @import "components/services.css";
-@import "accueil.css";
 @import "components/footer.css";
 @import "components/testimonials.css";
 @import "components/cta.css";
+@import "./accueil.css";
+@import "./contact.css";
 
 :root {
     /* Couleurs principales - à personnaliser */
