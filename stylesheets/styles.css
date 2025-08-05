@@ -8,6 +8,7 @@
 @import "components/cta.css";
 @import "./accueil.css";
 @import "./contact.css";
+@import "./a_propos.css";
 
 :root {
     /* Couleurs principales - à personnaliser */
